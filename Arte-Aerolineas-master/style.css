@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+ /*border: 1px solid black;*/
+}
+.home {
+    background-image: url( "fondo.jpg");  
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h1{
+    color: aliceblue;
+    font-size: 70px;
+     margin-right: 20%;
+    margin-top: 20%;
+    margin-left: 38%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+   
+
+.home h3{
+   margin-bottom: 20%;
+    margin-left: 27%;
+color: rgb(255, 255, 255);
+  width: 50%;
+    float: left ;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+header nav ul {
+    background-color: none;
+    margin-left: 8%;
+ 
+}
+
+header nav ul li{
+    margin-top: 2%;
+    list-style: none;
+    float: left;
+    margin-left: 5%;
+    margin-right: 6%;
+    padding: 1%;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: rgb(255, 145, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+ 
+}
+
+
+
+
+.Index1 div{
+      width: 50%;
+    margin-bottom: 3%;
+     margin-left: 5%;
+ margin-right: 5%;
+}
+.Index1 h2{
+    color: aliceblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 70%;
+}
+.Index1 p{
+    color: aliceblue;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Index1 {
+    clear: both;   
+    display: flex;
+    justify-content: space-around; /* o space-between / center */
+    align-items: center;
+}
+.Index1 div img{
+      width: 60%;
+    height: 60%;
+     float: left;
+       border-radius: 50%;
+       margin-right: 5%;
+     
+}
+
+
+
+
+
+
+.Usuario{
+     margin: 15%;
+    padding: 0%;
+ border: 3px solid rgb(255, 123, 0);
+ background-color: rgb(255, 255, 255);
+ margin-right: 35%;
+ margin-left: 33%;
+ float: left;
+}
+
+.Usuario img{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+}
+.Usuario form input {
+   width: 50%;
+    float: left;
+    margin-left: 23%;
+     margin-bottom: 3%;
+}
+
+.Usuario h2{
+    color:  rgb(255, 123, 0);
+    margin-left: 35%;
+    margin-top: 5%;
+      margin-bottom: 3%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Usuario h3{
+    color:  rgb(255, 123, 0);
+        margin-top: 3%;
+    margin-left: 29%;
+    margin-bottom: 3%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+.Empresas{
+    margin-top: 2%;
+  display: flex;
+    justify-content: space-around; /* o space-between / center */
+    align-items: center;
+}
+.Vuelo img{
+    width: 20%;
+    height: 18%;
+     float: left;
+}
+.Vuelo div{
+    width: 80%;
+    margin-bottom: 3%;
+     margin-left: 10%;
+ margin-right: 15%;
+ border: 10px solid  rgb(255, 123, 0);
+   box-shadow: 5px 5px 5px grey;
+}
+.Vuelo p{
+    margin-bottom: 6%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
+}
+.Vuelo h3{
+   color:  rgb(255, 123, 0);
+   font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Vuelo h5{
+   font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.Empresas div{
+
+    margin: 0%;
+    padding: 2%; 
+    border: 1px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 3px grey;
+   float:left;
+}
+
+.Empresas div h5{
+   
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Index4 h2 {
+    color: rgb(255, 145, 0);
+    font-size: 50px;
+     margin-right: 18%;
+    margin-top: 2%;
+    margin-left: 42%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    display: inline-block;
+    color: aliceblue;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(255, 212, 159);
+}
+footer h1{
+    color: rgb(255, 123, 0);
+    font-size: 30px;
+    margin-left: 38%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer img{
+    margin-top: 2%;
+    margin-right: 12%;
+    margin-left: 15%;
+    width: 3%;
+    height: 3%;
+    border-radius: 50%;
+}
